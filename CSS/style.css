@@ -1,0 +1,53 @@
+
+header{
+    padding: 0.5rem 1rem;
+    
+    display: flex;
+
+    justify-content: space-between;
+    
+    align-items: center;
+   
+    font-weight: bolder;
+
+    background-color: lightblue;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+
+
+
+body{
+    margin: 0;
+}
+    
+
+span{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: darkblue;
+}
+img {
+    display: block;        /*Gör bilden till ett block-element som bryter rad */
+    max-width: 100%;   /* Ser till att bilden aldrig kan bli större än sin förälder */
+    
+    object-fit: cover;   /*Ser till att bilder aldrig blir mosade eller förlorar proportioner */
+    
+    font-style: italic;  /* Frivilligt gör att om bilden saknas är alt-texten kursiv*/
+    color: gray;
+    width: 400;
+    height: 500;
+    border-radius: 100px;
+    transition: border-radius 250ms;
+    }
+
+img:hover{
+    filter: brightness(110%);
+    box-shadow: 100000px black;
+    border-radius: 1rem;
+}
+    
